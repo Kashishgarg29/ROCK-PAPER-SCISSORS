@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://media.gettyimages.com/id/1406147313/video/blue-abstract-multi-colored-xo-background-tic-tac-toe-abstract-background.jpg?s=640x640&k=20&c=k3NV073Vp2b651AoMw3it0DGtId7Fjut7rtzqCPMbRg=);
+    text-align: center;
+}
+
+.basic {
+    font-size: 58px;
+    color: rgb(130, 246, 6);
+    /* background-color: rgba(231, 237, 242, 0.185); */
+    margin-top: 50px;
+}
+
+.container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 55vmin;
+    width: 95vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5vmin;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 2px solid #000; */
+}
+.rock{
+    background-image: url('https://sihoonathan.github.io/rock-paper-scissors/assets/img/rock2.png');
+    background-size: cover;
+    /* Scales image to cover the entire container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+}
+.paper{
+    background-image: url('https://sihoonathan.github.io/rock-paper-scissors/assets/img/paper.png');
+    background-size: cover;
+    /* Scales image to cover the entire container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+}
+.scissors{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTemzMtxIgZVo_Nviqtk_7iNA31fKis7gr6gyZboIN-K3iZL-wdn9omAMgXD-D39uvv67E&usqp=CAUhttps://sihoonathan.github.io/rock-paper-scissors/assets/img/scissors.png');
+    background-size: cover;
+    /* Scales image to cover the entire container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+}
+.container2{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 30px;
+    color: rgb(130, 246, 6);
+}
+.icon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 30px;
+}
